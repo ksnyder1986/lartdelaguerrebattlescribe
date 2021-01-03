@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9109-9668-9c4c-b35d" name="10 - Old and Middle Kingdom Eqyptian" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="b33a-3ab6-ca67-602c" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="438c-e9ed-c103-515c" name="Corp" hidden="false" collective="false" import="true" targetId="fc7d-a70c-1042-de72" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2603-ab75-18ff-15bb" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="da36-4565-cddf-bfbe" value="1.0"/>
+            <modifier type="set" field="8366-3ea3-523d-e7ff" value="1.0"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42c6-2015-d7e5-ff3f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="da36-4565-cddf-bfbe" value="4.0"/>
+            <modifier type="set" field="8366-3ea3-523d-e7ff" value="4.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da36-4565-cddf-bfbe" type="max"/>
+        <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8366-3ea3-523d-e7ff" type="min"/>
+      </constraints>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="6d01-51d8-4456-610f" name="Guardsmen and Sherden*" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2603-ab75-18ff-15bb" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="79ca-b107-50d3-1afc" value="3.0"/>
+            <modifier type="set" field="92d0-a43f-0037-2a15" value="6.0"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42c6-2015-d7e5-ff3f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="79ca-b107-50d3-1afc" value="1.0"/>
+            <modifier type="set" field="92d0-a43f-0037-2a15" value="2.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="92d0-a43f-0037-2a15" type="max"/>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="79ca-b107-50d3-1afc" type="min"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4915-a5af-350d-ec71" name="Choose" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf9e-b7fd-fb38-8860" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa1d-0172-26ff-ba10" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b233-190d-73f6-8dc1" name="Heavy Swordsmen" hidden="false" collective="false" import="true" targetId="510a-97c8-f3b9-51ea" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e16-addf-340c-b81c" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="4241-49b6-8bc7-cfd8" name="Elite" hidden="false" collective="false" import="true" targetId="00f2-0e3f-3a58-5563" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c06c-e3f8-0a34-5b9f" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88e0-0a3e-f173-5ab5" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="3a01-3854-3e45-5be1" name="2HW" hidden="false" collective="false" import="true" targetId="8237-00bf-8c22-a6c4" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dd7-8814-22da-1b67" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb04-ba5a-dcf3-b3ca" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="3be6-5ec5-978b-69b9" name="Medium Swordsmen" hidden="false" collective="false" import="true" targetId="1b4a-bc5b-207e-e25f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b62-770d-7599-c056" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="4743-dcba-a449-81c0" name="2HW" hidden="false" collective="false" import="true" targetId="8237-00bf-8c22-a6c4" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04c9-1f6f-b962-44d5" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78ac-ae7a-e4cb-4ed1" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="8131-4508-f4a0-69fa" name="Elite" hidden="false" collective="false" import="true" targetId="00f2-0e3f-3a58-5563" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab17-8c7c-980d-ebf5" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c912-3f34-1092-0377" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Command" typeId="bcf5-2293-c432-0719" value="0.0"/>
+        <cost name="Points" typeId="23d0-7ff0-8eca-4c81" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a287-41b3-4304-2b33" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42c6-2015-d7e5-ff3f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="03b7-3757-fd77-539e" value="15.0"/>
+            <modifier type="set" field="04b7-62fb-598f-0a63" value="6.0"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2603-ab75-18ff-15bb" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="03b7-3757-fd77-539e" value="5.0"/>
+            <modifier type="set" field="04b7-62fb-598f-0a63" value="2.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="10.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="03b7-3757-fd77-539e" type="max"/>
+        <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="04b7-62fb-598f-0a63" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="0d81-eb6f-b396-1520" name="Medium Swordsmen" hidden="false" collective="false" import="true" targetId="1b4a-bc5b-207e-e25f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd84-a996-d2ce-444f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b657-ed87-5b09-9923" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9bfb-08aa-d131-87af" name="Impact" hidden="false" collective="false" import="true" targetId="eaad-dfc4-4f44-1b3a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef0d-a1e8-5c91-b981" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7438-7f77-efc2-3053" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Command" typeId="bcf5-2293-c432-0719" value="0.0"/>
+        <cost name="Points" typeId="23d0-7ff0-8eca-4c81" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bb3e-9698-fe71-57b7" name="Archers" hidden="false" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42c6-2015-d7e5-ff3f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="0107-b745-8c40-3be4" value="6.0"/>
+            <modifier type="set" field="fa99-20ec-dc21-604f" value="18.0"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>In 100 point games the minimums and maximums are divided by 2 rounded up.</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2603-ab75-18ff-15bb" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="0107-b745-8c40-3be4" value="2.0"/>
+            <modifier type="set" field="fa99-20ec-dc21-604f" value="6.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="12.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="fa99-20ec-dc21-604f" type="max"/>
+        <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0107-b745-8c40-3be4" type="min"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c3c4-f9fe-ccc8-70fa" name="Choose" hidden="false" collective="false" import="true" defaultSelectionEntryId="cc68-8334-252e-f74a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d86-ee51-fa35-b1d0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c1a-4c13-051c-b994" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cc68-8334-252e-f74a" name="Bowmen Mediocre" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="539e-aae8-158e-40a0" name="Bowmen" hidden="false" collective="false" import="true" targetId="85dc-09b2-1c69-5551" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="append" field="name" value="Mediocre"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f29d-867c-fe0c-4bf2" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9c7-f88a-89b1-e00a" type="min"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="43e7-4c0d-e705-5f3d" name="Mediocre" hidden="false" collective="false" import="true" targetId="18a2-9096-81dc-5408" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74ba-f817-9c74-e50f" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9dd-50b9-a6fc-5814" type="min"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Command" typeId="bcf5-2293-c432-0719" value="0.0"/>
+                <cost name="Points" typeId="23d0-7ff0-8eca-4c81" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="fb2b-de2e-e397-8a5b" name="Bowmen" hidden="false" collective="false" import="true" targetId="85dc-09b2-1c69-5551" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d61b-3ed7-e1ab-e749" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Command" typeId="bcf5-2293-c432-0719" value="0.0"/>
+        <cost name="Points" typeId="23d0-7ff0-8eca-4c81" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c86-b738-765f-651b" name="Conscripts" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42c6-2015-d7e5-ff3f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="0afa-ec26-de09-75ad" value="3.0"/>
+            <modifier type="set" field="d398-a958-f102-e6ca" value="18.0"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2603-ab75-18ff-15bb" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="0afa-ec26-de09-75ad" value="1.0"/>
+            <modifier type="set" field="d398-a958-f102-e6ca" value="6.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="12.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="d398-a958-f102-e6ca" type="max"/>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0afa-ec26-de09-75ad" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="2b3e-99bd-a52a-c683" name="Medium Swordsmen" hidden="false" collective="false" import="true" targetId="1b4a-bc5b-207e-e25f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d34-fb1d-ce93-7b06" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12f6-c137-62f5-a916" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8dc5-db75-56a4-5014" name="Mediocre" hidden="false" collective="false" import="true" targetId="18a2-9096-81dc-5408" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff56-9965-788c-bd20" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c36-49cd-4f63-52d0" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Command" typeId="bcf5-2293-c432-0719" value="0.0"/>
+        <cost name="Points" typeId="23d0-7ff0-8eca-4c81" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="938d-f45e-9858-aaf0" name="Nubians" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2603-ab75-18ff-15bb" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="ff89-9028-4d56-5d56" value="2.0"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42c6-2015-d7e5-ff3f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="ff89-9028-4d56-5d56" value="6.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="ff89-9028-4d56-5d56" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7c86-9e91-ab43-b77d" name="Choose" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cd6-f474-3d77-8aa4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c729-c88b-7897-aab6" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2f1d-9a38-8ed4-5caa" name="Bowmen" hidden="false" collective="false" import="true" targetId="85dc-09b2-1c69-5551" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8df1-e5e3-67f1-707c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="9128-5d52-33e5-95d0" name="Light Infantry" hidden="false" collective="false" import="true" targetId="3a67-5e68-0c6b-2d17" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c8f-3ba0-3fe7-39c3" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="cdee-7458-77ec-732b" name="Bows" hidden="false" collective="false" import="true" targetId="1e86-31db-8a2a-6cd3" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e85-60da-7261-ebfe" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc0d-ea41-9ef3-ae86" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Command" typeId="bcf5-2293-c432-0719" value="0.0"/>
+        <cost name="Points" typeId="23d0-7ff0-8eca-4c81" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3051-0e35-6b4e-45a6" name="Libyans and Egyptians" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2603-ab75-18ff-15bb" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="b78c-6756-3c88-3e1a" value="2.0"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42c6-2015-d7e5-ff3f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="b78c-6756-3c88-3e1a" value="6.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="b78c-6756-3c88-3e1a" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f6f7-9617-36d4-58d1" name="Choose" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c2d-7049-5bd2-faf2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99ad-64b8-ac5d-808b" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a3c4-c48d-e46d-502f" name="Javelinmen" hidden="false" collective="false" import="true" targetId="eac9-a407-a3be-e0d2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11c3-90d9-3cd5-7993" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c631-0ff4-bb35-cc6c" name="Light Infantry" hidden="false" collective="false" import="true" targetId="3a67-5e68-0c6b-2d17" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f6c-611a-9165-2968" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="4515-fd07-6454-716c" name="Javelin" hidden="false" collective="false" import="true" targetId="4d97-fa93-1275-3d50" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="866f-d5bb-a973-e068" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5465-dac8-9e0b-d900" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Command" typeId="bcf5-2293-c432-0719" value="0.0"/>
+        <cost name="Points" typeId="23d0-7ff0-8eca-4c81" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="61f8-b56c-a28b-fa98" name="Bedouins" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2603-ab75-18ff-15bb" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="aeff-8146-b37d-000d" value="1.0"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42c6-2015-d7e5-ff3f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="aeff-8146-b37d-000d" value="3.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="aeff-8146-b37d-000d" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1af3-f39c-7b69-cd0b" name="Light Infantry" hidden="false" collective="false" import="true" targetId="3a67-5e68-0c6b-2d17" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18e8-6c89-9f57-1dd4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7356-1a96-6471-bebc" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6ea0-bed1-bb3a-0611" name="Slings" hidden="false" collective="false" import="true" targetId="7fbf-9d96-f6c7-90c4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4774-0366-dd31-dbdf" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b38a-33f3-b6ec-9de4" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Command" typeId="bcf5-2293-c432-0719" value="0.0"/>
+        <cost name="Points" typeId="23d0-7ff0-8eca-4c81" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="67dd-377f-7c35-616e" name="Levy" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="42c6-2015-d7e5-ff3f" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="236e-4c16-7deb-15f5" value="3.0"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <comment>In 300 point games the minimums and maximums are multipled by 1.5 rounding down</comment>
+          <conditions>
+            <condition field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2603-ab75-18ff-15bb" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="236e-4c16-7deb-15f5" value="1.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="236e-4c16-7deb-15f5" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="6aac-9606-5cf4-f852" name="Levies" hidden="false" collective="false" import="true" targetId="8cc3-1415-6ed8-7346" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0cf-a2dc-0425-1a7d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f30b-b66a-d4f8-5508" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Command" typeId="bcf5-2293-c432-0719" value="0.0"/>
+        <cost name="Points" typeId="23d0-7ff0-8eca-4c81" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc7d-a70c-1042-de72" name="Corp" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="1ecd-1c37-2db4-d705" name="Archers" hidden="false" collective="false" import="true" targetId="bb3e-9698-fe71-57b7" type="selectionEntry"/>
+        <entryLink id="347e-ea66-59c9-cb73" name="Bedouins" hidden="false" collective="false" import="true" targetId="61f8-b56c-a28b-fa98" type="selectionEntry"/>
+        <entryLink id="ee85-8d63-cf73-f999" name="Conscripts" hidden="false" collective="false" import="true" targetId="9c86-b738-765f-651b" type="selectionEntry"/>
+        <entryLink id="c623-3354-39ac-f595" name="Guardsmen and Sherden*" hidden="false" collective="false" import="true" targetId="6d01-51d8-4456-610f" type="selectionEntry"/>
+        <entryLink id="17d3-c648-4020-fa65" name="Levy" hidden="false" collective="false" import="true" targetId="67dd-377f-7c35-616e" type="selectionEntry"/>
+        <entryLink id="b815-5082-f132-e86e" name="Libyans and Egyptians" hidden="false" collective="false" import="true" targetId="3051-0e35-6b4e-45a6" type="selectionEntry"/>
+        <entryLink id="9872-95d8-81c6-c9e7" name="Nubians" hidden="false" collective="false" import="true" targetId="938d-f45e-9858-aaf0" type="selectionEntry"/>
+        <entryLink id="9d11-eb38-cb1a-1df8" name="Warriors" hidden="false" collective="false" import="true" targetId="a287-41b3-4304-2b33" type="selectionEntry"/>
+        <entryLink id="4338-ec62-12c0-dac6" name="Commander" hidden="false" collective="false" import="true" targetId="5f21-7f20-cdce-17cb" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="5f21-7f20-cdce-17cb" name="Commander" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff17-6fc1-9487-444a" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="186f-72cf-4f36-611a" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="1ca4-2f7e-cf9a-9c42" name="Brilliant Commander" hidden="false" collective="false" import="true" targetId="22b6-1875-796d-ce49" type="selectionEntry"/>
+        <entryLink id="64b2-91a6-bc3a-1a7f" name="Competent Commander" hidden="false" collective="false" import="true" targetId="896e-8724-0638-e14b" type="selectionEntry"/>
+        <entryLink id="6cf4-2df1-6b68-da24" name="Ordinary Commander" hidden="false" collective="false" import="true" targetId="84e2-644b-73c4-b4e9" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
